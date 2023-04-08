@@ -167,7 +167,7 @@ class DictionaryValidator(BaseSimilarityValidator):
     def get_dictionary_words(self, dictionary):
         if DICT_CACHE:
             return DICT_CACHE  # noqa: F823
-        if DICT_FILESIZE is -1:  # noqa: F823
+        if DICT_FILESIZE == -1:  # noqa: F823
             f = open(dictionary)
             f.seek(0, 2)
             DICT_FILESIZE = f.tell()
