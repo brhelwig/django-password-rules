@@ -27,5 +27,9 @@ jobs:
       - name: Build package
         run: |-
           python3 -m build
+      - name: Create Github Release
+        run: |-
+          export VERSION=`grep __version__ passwords/__init__.py | grep -o '[0-9][^"]*'`
+          gh release create $VERSION --title $VERSION --generate-notes
       - name: Publish package distributions to PyPI
         uses: pypa/gh-action-pypi-publish@release/v1
