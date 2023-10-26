@@ -8,6 +8,8 @@ bandit==1.7.5
     # via -r requirements.dev.in
 black==23.10.1
     # via -r requirements.dev.in
+build==1.0.3
+    # via -r requirements.dev.in
 cfgv==3.4.0
     # via pre-commit
 click==8.1.7
@@ -49,6 +51,7 @@ nodeenv==1.8.0
 packaging==23.2
     # via
     #   black
+    #   build
     #   pytest
 pathspec==0.11.2
     # via black
@@ -68,6 +71,8 @@ pyflakes==3.1.0
     # via flake8
 pygments==2.16.1
     # via rich
+pyproject-hooks==1.0.0
+    # via build
 pytest==7.4.3
     # via
     #   -r requirements.dev.in
@@ -88,6 +93,8 @@ typing-extensions==4.8.0
     # via mypy
 virtualenv==20.24.6
     # via pre-commit
+wheel==0.41.2
+    # via -r requirements.dev.in
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
