@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name="django-strong-passwords",
-    version=__import__("passwords").__version__,
+    version="0.1.0",
     author="Brandon Helwig",
     author_email="django-strong-passwords@brandonhelwig.com",
     description=(
