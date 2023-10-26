@@ -26,7 +26,7 @@ flake8==6.0.0
     # via -r requirements.dev.in
 gitdb==4.0.10
     # via gitpython
-gitpython==3.1.31
+gitpython==3.1.37
     # via bandit
 identify==2.5.22
     # via pre-commit
@@ -86,8 +86,6 @@ smmap==5.0.0
     # via gitdb
 stevedore==5.0.0
     # via bandit
-types-six==1.16.21.8
-    # via -r requirements.dev.in
 typing-extensions==4.5.0
     # via mypy
 virtualenv==20.21.0
