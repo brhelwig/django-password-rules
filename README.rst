@@ -1,13 +1,3 @@
-.. image:: https://travis-ci.org/dstufft/django-passwords.svg?branch=master
-    :target: https://travis-ci.org/dstufft/django-passwords
-.. image:: https://img.shields.io/pypi/v/django-passwords.svg
-    :target: https://pypi.python.org/pypi/django-passwords/
-.. image:: https://img.shields.io/pypi/dm/django-passwords.svg
-    :target: https://pypi.python.org/pypi/django-passwords/
-.. image:: https://img.shields.io/pypi/l/django-passwords.svg
-    :target: https://pypi.python.org/pypi/django-passwords/
-
-
 Django Passwords
 ================
 
@@ -17,17 +7,6 @@ validators that check the strength of a password.
 Installation
 ------------
 
-You can install django-passwords with pip by typing::
-
-    pip install django-passwords
-
-Or with easy_install by typing::
-
-    easy_install django-passwords
-
-Or manually by downloading a tarball and typing::
-
-    python setup.py install
 
 Compatibility
 -------------

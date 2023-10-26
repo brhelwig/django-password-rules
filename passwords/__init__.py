@@ -7,7 +7,13 @@ def get_version():
     elif VERSION[3] == "dev":
         if VERSION[2] == 0:
             return "%s.%s.%s%s" % (VERSION[0], VERSION[1], VERSION[3], VERSION[4])
-        return "%s.%s.%s.%s%s" % (VERSION[0], VERSION[1], VERSION[2], VERSION[3], VERSION[4])
+        return "%s.%s.%s.%s%s" % (
+            VERSION[0],
+            VERSION[1],
+            VERSION[2],
+            VERSION[3],
+            VERSION[4],
+        )
     else:
         return "%s.%s.%s%s" % (VERSION[0], VERSION[1], VERSION[2], VERSION[3])
 
