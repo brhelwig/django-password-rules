@@ -1,23 +1,23 @@
-Django Passwords
+Django Strong Passwords
 ================
 
-django-passwords is a reusable app that provides a form field and
-validators that check the strength of a password.
+django-strong-passwords is a Django application that provides a form field and
+validators that check the strength of a password. It is a fork of django-passwords which
+adds support for modern versions of Django and Python.
 
 Installation
 ------------
-
+`pip install django-strong-passwords`
 
 Compatibility
 -------------
 
-django-passwords is compatible with Django 1.3 through 1.9 RC1. Pythons 2.7
-and 3.4 are both supported.
+django-strong-passwords is tested with Django 3.2+ and Python 3.7+.
 
 Settings
 --------
 
-django-passwords adds 6 optional settings
+django-strong-passwords adds 6 optional settings
 
 Optional:
     Specifies minimum length for passwords:
