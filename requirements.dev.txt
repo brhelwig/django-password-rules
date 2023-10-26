@@ -68,7 +68,7 @@ pycodestyle==2.10.0
     # via flake8
 pyflakes==3.0.1
     # via flake8
-pygments==2.14.0
+pygments==2.15.0
     # via rich
 pytest==7.2.2
     # via
@@ -86,8 +86,6 @@ smmap==5.0.0
     # via gitdb
 stevedore==5.0.0
     # via bandit
-types-six==1.16.21.8
-    # via -r requirements.dev.in
 typing-extensions==4.5.0
     # via mypy
 virtualenv==20.21.0
