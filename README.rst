@@ -1,5 +1,5 @@
 Django Strong Passwords
-================
+========================
 
 django-strong-passwords is a Django application that provides a form field and
 validators that check the strength of a password. It is a fork of django-passwords which
