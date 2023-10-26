@@ -17,7 +17,7 @@ setup(
     ],
     include_package_data=True,
     install_requires=[
-        "Django >= 1.3",
+        "Django >= 3.2",
     ],
     classifiers=[
         "Development Status :: 4 - Beta",
