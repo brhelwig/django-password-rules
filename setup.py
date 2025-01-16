@@ -1,4 +1,5 @@
 from setuptools import setup
+
 from passwords import __version__
 
 setup(
